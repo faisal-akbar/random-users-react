@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 const Users = (props) => {
-  const name = props.user.name.first + ' ' + props.user.name.first;
+  const name = props.user.name.first + ' ' + props.user.name.last;
   const email = props.user.email;
   const phone = props.user.phone;
   const salary = (props.user.dob.age + 13) * 1000;
